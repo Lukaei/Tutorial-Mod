@@ -9,6 +9,9 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
+    public static final Item MYTHRIL_PEARL = registerItem("mythril_pearl",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
     public static final Item MYTHRIL_INGOT = registerItem("mythril_ingot",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
