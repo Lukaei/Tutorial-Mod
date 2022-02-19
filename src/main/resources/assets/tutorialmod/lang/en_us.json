@@ -4,5 +4,7 @@
   "item.tutorialmod.mythril_pearl": "Mythril Pearl",
 
   "block.tutorialmod.mythril_block": "Block of Mythril",
-  "block.tutorialmod.mythril_ore": "Mythril Ore"
+  "block.tutorialmod.mythril_ore": "Mythril Ore",
+
+  "itemGroup.tutorialmod.mythril": "Mythril"
 }
