@@ -1,7 +1,8 @@
 {
-
   "item.tutorialmod.mythril_ingot": "Mythril Ingot",
   "item.tutorialmod.mythril_nugget": "Mythril Nugget",
-  "item.tutorialmod.mythril_pearl": "Mythril Pearl"
+  "item.tutorialmod.mythril_pearl": "Mythril Pearl",
 
+  "block.tutorialmod.mythril_block": "Block of Mythril",
+  "block.tutorialmod.mythril_ore": "Mythril Ore"
 }

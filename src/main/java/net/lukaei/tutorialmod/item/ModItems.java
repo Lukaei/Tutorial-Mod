@@ -9,28 +9,19 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
-    public static final Item MYTHRIL_PEARL = registerItem("mythril_pearl",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    // Create new ModItems
+    public static final Item MYTHRIL_PEARL = registerItem("mythril_pearl", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item MYTHRIL_INGOT = registerItem("mythril_ingot", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item MYTHRIL_NUGGET = registerItem("mythril_nugget", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
-    public static final Item MYTHRIL_INGOT = registerItem("mythril_ingot",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
-
-    public static final Item MYTHRIL_NUGGET = registerItem("mythril_nugget",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
-
-
-
-
+    // Registers the ModItems
     private static Item registerItem(String name, Item item) {
-
         return Registry.register(Registry.ITEM, new Identifier(TutorialMod.MOD_ID, name), item);
-
     }
 
+    // Logger
     public static void registerModItems() {
-
         TutorialMod.LOGGER.info("Registering Mod Items for " + TutorialMod.MOD_ID);
-
     }
 
 }
