@@ -5,7 +5,6 @@ import net.lukaei.tutorialmod.TutorialMod;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
-import org.lwjgl.system.CallbackI;
 
 public class ModItemGroup {
 
