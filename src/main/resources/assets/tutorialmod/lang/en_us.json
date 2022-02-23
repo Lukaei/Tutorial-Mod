@@ -3,9 +3,12 @@
   "item.tutorialmod.mythril_nugget": "Mythril Nugget",
   "item.tutorialmod.mythril_pearl": "Mythril Pearl",
   "item.tutorialmod.raw_mythril":  "Raw Mythril",
+  "item.tutorialmod.dowsing_rod": "Dowsing Rod",
 
   "block.tutorialmod.mythril_block": "Block of Mythril",
   "block.tutorialmod.mythril_ore": "Mythril Ore",
 
-  "itemGroup.tutorialmod.mythril": "Mythril"
+  "itemGroup.tutorialmod.mythril": "Mythril",
+
+  "item.tutorialmod.dowsing_rod.no_valuables": "No valuables found!"
 }
