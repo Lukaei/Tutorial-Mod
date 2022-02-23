@@ -12,6 +12,7 @@ public class ModItems {
     public static final Item MYTHRIL_PEARL = registerItem("mythril_pearl", new Item(new FabricItemSettings().group(ModItemGroup.MYTHRIL)));
     public static final Item MYTHRIL_INGOT = registerItem("mythril_ingot", new Item(new FabricItemSettings().group(ModItemGroup.MYTHRIL)));
     public static final Item MYTHRIL_NUGGET = registerItem("mythril_nugget", new Item(new FabricItemSettings().group(ModItemGroup.MYTHRIL)));
+    public static final Item RAW_MYTHRIL = registerItem("raw_mythril", new Item(new FabricItemSettings().group(ModItemGroup.MYTHRIL)));
 
     // Registers the ModItems
     private static Item registerItem(String name, Item item) {
