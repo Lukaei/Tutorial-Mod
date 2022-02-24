@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "FPF",
+    "###"
+  ],
+  "key": {
+    "P": {
+      "item": "tutorialmod:mythril_pearl"
+    },
+    "F": {
+      "item": "minecraft:feather"
+    },
+    "#": {
+      "item": "tutorialmod:mythril_ingot"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:mythril_block"
+  }
+}
